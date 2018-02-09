@@ -5,7 +5,6 @@
 
 #
 # Using MapR PACC as the base image
-# For specific versions check: https://hub.docker.com/r/mkieboom/mapr-pacc-nginx-docker/
 FROM maprtech/pacc
 
 # Add the launch script which adds a second cluster to mapr-clusters.conf
