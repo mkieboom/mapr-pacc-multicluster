@@ -13,4 +13,4 @@ ADD launch.sh /launch.sh
 RUN sudo chmod +x /launch.sh
 
 # Launch
-CMD /launch.sh
+CMD /launch.sh && /bin/bash
